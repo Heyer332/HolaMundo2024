@@ -5,11 +5,14 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f9f2e7"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#6b9e76"
         android:text="Estudiante de la Universidad UNAP, aprendiendo constantemente sobre el mundo de la programacion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +34,7 @@
         android:layout_width="203dp"
         android:layout_height="31dp"
         android:text="Hector yeran"
+        android:textSize="24dp"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="49dp" />
 
